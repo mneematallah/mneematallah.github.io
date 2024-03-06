@@ -8,11 +8,12 @@ body, h1, h2, h3, p, ul, li, nav {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -47,14 +48,33 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#about h3, #experience h3, #projects h3 {
+.section h2 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.section h3 {
+    color: #343a40;
     margin-top: 20px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
